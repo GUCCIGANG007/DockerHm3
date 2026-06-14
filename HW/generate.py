@@ -13,7 +13,7 @@ def generate_row():
         "player": random.choice(["Lionel Messi", "Cristiano Ronaldo", "Kylian Mbappe", "Erling Haaland", 
                                "Jude Bellingham", "Vinicius Jr", "Harry Kane", "Mohamed Salah"]),
         "team": random.choice(["Argentina", "Portugal", "France", "Brazil", "England", "Germany", "Spain"]),
-        "age": random.randint(18, 37),
+        "age": random.randint(18, 41),
         "goals": random.randint(0, 15),
         "assists": random.randint(0, 12),
         "position": random.choice(["Forward", "Midfielder", "Defender", "Goalkeeper"]),
